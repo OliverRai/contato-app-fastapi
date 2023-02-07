@@ -10,6 +10,7 @@ conda-content-trust @ file:///C:/Windows/TEMP/abs_4589313d-fc62-4ccc-81c0-b801b4
 conda-package-handling @ file:///C:/b/abs_44a2d5ajjt/croot/conda-package-handling_1666940385350/work
 cryptography @ file:///C:/b/abs_36x9ifdcl4/croot/cryptography_1665612655344/work
 fastapi==0.89.1
+greenlet==2.0.2
 h11==0.14.0
 idna @ file:///C:/b/abs_bdhbebrioa/croot/idna_1666125572046/work
 menuinst @ file:///C:/Users/BUILDE~1/AppData/Local/Temp/abs_455sf5o0ct/croots/recipe/menuinst_1661805970842/work
@@ -24,6 +25,7 @@ ruamel.yaml @ file:///C:/b/abs_30ee5qbthd/croot/ruamel.yaml_1666304562000/work
 ruamel.yaml.clib @ file:///C:/b/abs_aarblxbilo/croot/ruamel.yaml.clib_1666302270884/work
 six @ file:///tmp/build/80754af9/six_1644875935023/work
 sniffio==1.3.0
+SQLAlchemy==2.0.2
 starlette==0.22.0
 toolz @ file:///C:/b/abs_cfvk6rc40d/croot/toolz_1667464080130/work
 tqdm @ file:///C:/b/abs_0axbz66qik/croots/recipe/tqdm_1664392691071/work

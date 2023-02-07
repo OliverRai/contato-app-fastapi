@@ -1,0 +1,7 @@
+FROM 3.10-buster
+
+ENV TZ America/São_Paulo
+
+WORKDIR /usr/contato-app
+
+RUN pip install requirements.txt
