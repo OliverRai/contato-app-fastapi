@@ -1,7 +1,11 @@
-FROM 3.10-buster
+FROM python
 
 ENV TZ America/São_Paulo
 
-WORKDIR /usr/contato-app
+WORKDIR /contato-app
 
-RUN pip install requirements.txt
+COPY . .
+
+RUN pip install --upgrade pip && pip install -r requirements.txt
+
+CMD [ "uvicorn app:app --reload" ]
