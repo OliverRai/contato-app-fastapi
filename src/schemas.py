@@ -5,6 +5,11 @@ class PersonBase(BaseModel):
     cellphone: str
     email: str
 
+class AddressBase(BaseModel):
+    city: str
+    distric: str
+    number: str
+
 class PersonRequest(PersonBase):
     ...
 

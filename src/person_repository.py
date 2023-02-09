@@ -22,10 +22,6 @@ class PersonRepository:
         return db.query(Person).filter(Person.id == id).first()
 
     @staticmethod
-    def exists_by_id(db: Session, id: int) -> bool:
-        return db.query(Person).filter(Person.id == id).first() is not None
-
-    @staticmethod
     def delete_by_id(db: Session, id: int) -> None:
         person = db.query(Person).filter(Person.id == id).first()
         if person is not None:
