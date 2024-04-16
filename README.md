@@ -1,2 +1,5 @@
-# contato-app-fastapi
-CRUD para contatos
+
+# ContatoApp
+
+CRUD para contatos feitos com FastAPI com Sqlite
+
